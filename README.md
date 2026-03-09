@@ -1,8 +1,6 @@
 # symbolic-reasoning-tests
 Evaluation framework for testing symbolic and mythological reasoning in large language models.
 
-# Symbolic Narrative Benchmark
-
 An experimental framework for evaluating how large language models interpret
 symbolic narratives, mythological texts, and archetypal systems.
 
