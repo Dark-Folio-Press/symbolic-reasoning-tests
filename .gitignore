@@ -1,38 +1,16 @@
-# Python bytecode
-__pycache__/
-*.py[cod]
-*$py.class
+# Environment variables
+.env
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-*.egg
-*.whl
+# Google credentials
+google_credentials.json
+
+# Python cache
+__pycache__/
+*.pyc
 
 # Virtual environments
 venv/
-env/
-ENV/
-.venv/
-
-# Pip / dependency managers
-pip-wheel-metadata/
-Pipfile.lock
-poetry.lock
-
-# Jupyter notebooks
-.ipynb_checkpoints
+.env/
 
 # Logs
 *.log
@@ -41,22 +19,9 @@ poetry.lock
 .DS_Store
 Thumbs.db
 
-# IDE / editor files
-.vscode/
-.idea/
-
-# Environment variables / secrets
-.env
-.env.*
-google_credentials.json
-
-# Testing / coverage
-.coverage
-coverage.xml
-htmlcov/
-.pytest_cache/
+# Notebook checkpoints
+.ipynb_checkpoints/
 
 # Data outputs
-*.csv
-*.tsv
-*.sqlite
+data/*.csv
+data/*.tsv
