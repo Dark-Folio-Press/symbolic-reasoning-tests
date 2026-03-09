@@ -13,17 +13,17 @@ client = gspread.authorize(creds)
 
 sheet = client.open("LLM_Symbolic_Evaluation").worksheet("Test Runs")
 
-def log_test_run(run_id, myth, model, temp, prompt_id, response_id, score, failure, notes):
+sheet.append_row([
+    "TEST_CONNECTION",
+    datetime.now().isoformat(),
+    "Odin",
+    "gpt-test",
+    0.5,
+    "prompt_test",
+    "response_test",
+    10,
+    "none",
+    "connection successful"
+])
 
-    sheet.append_row([
-        run_id,
-        datetime.now().isoformat(),
-        myth,
-        model,
-        temp,
-        prompt_id,
-        response_id,
-        score,
-        failure,
-        notes
-    ])
+print("Row successfully written to Google Sheets.")
