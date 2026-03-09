@@ -11,7 +11,7 @@ This project explores common LLM reasoning challenges including:
 - Collapse of multiple interpretations
 - Interpretive drift under temperature changes
 
-## Example Test Case
+## Test Case
 
 Odin sacrificing his eye at Mimir's well in exchange for wisdom.
 
@@ -36,3 +36,5 @@ scripts/        → automation scripts for running tests
 - expand mythological benchmark cases
 - test multiple LLM models
 - build symbolic reasoning dataset
+
+
